@@ -1,0 +1,27 @@
+# Зависимости
+node_modules/
+
+# Сборка
+inject/dist/
+src-tauri/target/
+
+# Генерируется tauri-build при каждой сборке
+src-tauri/gen/schemas/
+
+# Логи
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Редакторы и ОС
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Локальные переменные окружения
+.env
+.env.*

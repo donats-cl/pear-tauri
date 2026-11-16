@@ -1,0 +1,17 @@
+{
+  "name": "pear-tauri",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "tauri": "tauri",
+    "build:inject": "cd inject && pnpm install && pnpm build",
+    "dev": "pnpm build:inject && pnpm tauri dev"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.0.0",
+    "@tauri-apps/cli": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

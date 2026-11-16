@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-history-progress"
+description = "Enables the history_progress command without any pre-configured scope."
+commands.allow = ["history_progress"]
+
+[[permission]]
+identifier = "deny-history-progress"
+description = "Denies the history_progress command without any pre-configured scope."
+commands.deny = ["history_progress"]
